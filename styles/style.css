@@ -1,63 +1,18 @@
-/*main style */
-
+/* ========== Main Style ========== */
 * {
-  /* margin: 0;
+  margin: 0;
   padding: 0;
-  box-sizing: border-box; */
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
-/* Shared style */
-.text-primary{
-  color: #FD6E0A;
+/* ========== Shared Styles ========== */
+.text-primary {
+  color: #fd6e0a;
 }
 
-.header{
-  background-image: url("../images/developer.png"),url("../images/header_bg.png");
-  background-repeat: no-repeat;
-  margin-left:20px;
-  background-position: top left, bottom right;
-}
-
-
-nav {
-  display: flex;
-  margin: 50px 200px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul{
-  display: flex;
-  align-items: center;
-}
-nav ul li{
-  list-style: none;
-  margin-right: 50px;
-}
-
-
-.nav-title{
-  font-weight: 800;
-  font-size: 45px;
-  
-}
-
-
-.main-ul{
-  list-style: none;
-  text-decoration: none;
-}
-
-ul li a{
-  text-decoration: none;
-  font-size: 20px;
- 
-  color: black;
-}
-
-.btn-primary{
-  background-color: #FD6E0A;
+.btn-primary {
+  background-color: #fd6e0a;
   font-weight: bold;
   font-size: 20px;
   color: white;
@@ -66,32 +21,121 @@ ul li a{
   border: none;
 }
 
-/* banner style */
-.banner-grettings{
-  font-size:45px;
-  font-weight:bold;
-}
-
-.banner-title{ 
-  font-size: 85px;
-  font-weight: 600px;
-}
-
-.banner-profile-pic{
-  width: 580px;
-}
-
-.btn-primary-design{
+.btn-primary-design {
   margin-top: 10px;
 }
 
-.banner{
-  display: flex;
-  align-items: center;
-  margin: 50px 200px;
-  justify-content: space-between;
+.session-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
 }
 
-.banner-content{
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
+
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
+/* ========== Header Style ========== */
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  margin-left: 20px;
+}
+
+/* ========== Navigation Bar ========== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 200px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.main-ul {
+  list-style: none;
+}
+
+/* ========== Banner Section ========== */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px 0 200px;
+}
+
+.banner-content {
   max-width: 580px;
+}
+
+.banner-greetings {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.banner-profile-pic {
+  width: 580px;
+}
+
+/* ========== About Section ========== */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top:130px ;
+}
+
+/* ========== Main Tag ========== */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.item-description{
+  font-weight: bold;
+
+}
+
+.about-items{
+  display: flex;
+  justify-content: space-around;  
+  margin-top: 50px;
 }
